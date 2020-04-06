@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
   double totalPrice = 0.00;
   var itemType = [];
 
-  String textOfButton = "No Items = RM 0.00";
+  String textOfButton = "No Items : RM 0.00";
 
   @override
   Widget build(BuildContext context) {
