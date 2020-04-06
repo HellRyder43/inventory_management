@@ -1,0 +1,50 @@
+name: dexandrainventory
+description: Inventory Management for Dexandra products
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  fancy_bottom_navigation: ^0.3.2
+  font_awesome_flutter: ^8.7.0
+  getflutter: ^1.0.10
+  image_picker: ^0.6.3+4
+  flutter_masked_text: ^0.8.0
+  grouped_list: ^2.0.0
+  flutter_signature_pad: ^2.0.2
+  path_provider: ^1.6.5
+  pdf: ^1.5.0
+  flutter_full_pdf_viewer: ^1.0.6
+  permission_handler: ^4.4.0+hotfix.2
+  image_gallery_saver: ^1.2.2
+  printing: ^3.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: fonts/OpenSans-Bold.ttf
+          weight: 700
+        - asset: fonts/OpenSans-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: fonts/OpenSans-Regular.ttf
+          weight: 400
+
